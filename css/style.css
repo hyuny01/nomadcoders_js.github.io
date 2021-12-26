@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Eulyoo1945-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Eulyoo1945-Regular';
+  font-size: 2rem;
+  min-width: 1200px;
+}
+
+.hidden{
+  display: none;
+}
+
+.wrap{
+  width: 100%;
+  height: 100vh;
+  background: url(../imgs/bg_01.jpg) no-repeat;
+  background-size: cover;
+  color: #FFF6EA;
+  position: relative;
+}
+
+.wrap img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wrap h2{
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  margin-bottom: 0.4em;
+  opacity: 0.5;
+
+}
+
+.wrap input{
+  font-family: 'Eulyoo1945-Regular';
+  border-bottom: 1px solid #FFF6EA;
+  padding-bottom: 0.4em;
+  width: 100%;
+  color: #FFF6EA;
+  font-size: 2rem;
+}
+
+input::placeholder{
+  color: #FFF6EA;
+  opacity: 0.2;
+}
+ 
+.wrap .left{
+  width: 50%;
+  padding: 82px 254px 0 61px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+.set-p{
+  font-size: 2rem;
+  line-height: 1.4em;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 55px 0 80px;
+}
+
+.time > p{
+  letter-spacing: 2px;
+}
+
+.weather span:nth-child(2){
+  margin-right: 0.3em;
+}
+
+.today-list > p{
+  margin-bottom: 1em;
+}
+.today-list ul{
+  margin-top: 0.5em;
+}
+.today-list ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.5em;
+  border-bottom: 1px solid #fff6ea30;
+}
+.today-list ul li button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f43f13;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.random{
+  position: fixed;
+  bottom: 40px;
+}
+.random > p{
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+}

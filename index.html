@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hello</title>
+</head>
+<body>
+  <div class="wrap">
+    <div class="left">
+      <div class="login hidden">
+        <div class="form">
+          <h2>이름을 입력해주세요</h2>
+          <form action="" method="get">
+            <input type="text" placeholder="What is your name?" maxlength="20"/>
+          </form>
+        </div>
+        <p></p>
+      </div>
+      <div class="container">
+        <div class="time">
+          <h2>Time</h2>
+          <p>00:00:00</p>
+        </div>
+        <div class="weather">
+          <h2>Weather</h2>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="today-list">
+        <h2>Todo List</h2>
+        <p>오늘의 할 일</p>
+        <form action="" method="post">
+          <input type="text" placeholder="Write here" maxlength="25">
+        </form>
+        <ul></ul>
+      </div>
+      <div class="random">
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+<script src="js/login.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/weater.js"></script>
+<script src="js/random.js"></script>
+<script src="js/todo.js"></script>
+</body>
+</html>
